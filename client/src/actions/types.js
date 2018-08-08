@@ -1,0 +1,3 @@
+export const FETCHING_COIN = "FETCHING_COIN";
+export const FETCHED_COIN = "FETCHED_COIN";
+export const ERROR_FETCH_COIN = "ERROR_FETCH_COIN";

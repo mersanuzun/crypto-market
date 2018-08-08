@@ -1,0 +1,30 @@
+{
+  "name": "crypto-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "node_modules/nodemon/bin/nodemon.js index.js",
+    "client": "npm run start --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mersanuzun/crypto-market.git"
+  },
+  "author": "mersanuzun@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mersanuzun/crypto-market/issues"
+  },
+  "homepage": "https://github.com/mersanuzun/crypto-market#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "axios": "^0.18.0",
+    "koa": "^2.5.2",
+    "koa-route": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
