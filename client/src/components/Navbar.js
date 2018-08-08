@@ -6,7 +6,7 @@ class SearchBox extends React.Component {
         return (
             <nav>
                 <div className="nav-wrapper">
-                    <a href="" className="brand-logo">{"Coin Market"}</a>
+                    <a href="" className="brand-logo">{"Crypto Market"}</a>
                 </div>
             </nav>
         )
